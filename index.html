@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Flappy Bird Web Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon biểu tượng chim mini -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐤</text></svg>">
+</head>
+<body>
+    <div class="game-wrapper">
+        <div class="canvas-container">
+            <button id="soundBtn" class="sound-btn" title="Bật/Tắt âm thanh">🔊</button>
+            <canvas id="gameCanvas"></canvas>
+        </div>
+        <div class="game-footer">
+            Bấm <span>Phím Space</span>, <span>Mũi tên lên</span> hoặc <span>Chạm màn hình</span> để bay
+        </div>
+    </div>
+
+    <!-- Scripts Game -->
+    <script src="js/audio.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/bird.js"></script>
+    <script src="js/pipe.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
